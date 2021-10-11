@@ -123,21 +123,9 @@
 		},
 		{
 			"name": "list",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
 			"request": {
 				"method": "GET",
 				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Tobias\",\r\n    \"gameId\": \"d538a178-884e-4f68-b3a2-4679fef2f971\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
 				"url": {
 					"raw": "http://localhost:8080/game-of-three/list",
 					"protocol": "http",
