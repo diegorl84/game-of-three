@@ -76,3 +76,6 @@ GET http://localhost:8080/game-of-three/list
 7. Windows #1 will show the number sent by player two and will let make your move.
 8. Game will finish and show the text "Game over. The winner is: [PLAYER]" when the result of compute the numbers is 1.
 
+## Postman API collection
+https://github.com/diegorl84/game-of-three/blob/master/TakeAway%20API%20-%20Game%20of%20three.postman_collection.json
+
