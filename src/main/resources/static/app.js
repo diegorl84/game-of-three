@@ -50,7 +50,7 @@ function joinGame(){
       },
       success: function(data){
         gameId = data.id;
-         $("#infoplaceholder").append("<div class='alert alert-primary' role='alert'>Connected to game id: <strong>"+gameId+"</strong>. Playing against: "+ data.player1.name+"</div>");
+        $("#infoplaceholder").append("<div class='alert alert-primary' role='alert'>Connected to game id: <strong>"+gameId+"</strong>. Playing against: "+ data.player1.name+"</div>");
         connectToSocket(gameId);
         showResponse(data)
       }
@@ -79,9 +79,8 @@ function joinRandomGame(){
         alert(e.responseJSON.message, 'danger')
       },
       success: function(data){
-
         gameId = data.id;
-        $("#info_gameId").text("Connected to game #: " + gameId);
+        $("#infoplaceholder").append("<div class='alert alert-primary' role='alert'>Connected to game id: <strong>"+gameId+"</strong>. Playing against: "+ data.player1.name+"</div>");
         connectToSocket(gameId);
         showResponse(data)
       }
