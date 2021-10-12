@@ -79,3 +79,8 @@ GET http://localhost:8080/game-of-three/list
 ## Postman API collection
 https://github.com/diegorl84/game-of-three/blob/master/TakeAway%20API%20-%20Game%20of%20three.postman_collection.json
 
+## Localhost test
+Please use this video that explain how use the web app:
+
+https://github.com/diegorl84/game-of-three/blob/master/www_screencapture_com_2021-10-11_19_22.mp4
+
